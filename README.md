@@ -4,7 +4,7 @@
 ### Major parts
 * ruby 2.2.2
 * rails 4.2.3
-* database: mysql
+* database: sqlite3
 
 ### Testing
 * test suite: 
