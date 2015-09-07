@@ -5,7 +5,7 @@
 ### Major parts
 * ruby 2.2.2
 * rails 4.2.3
-* database: sqlite3
+* database: mongoDB with mongoid
 
 ### Testing
 * test suite: 
@@ -38,8 +38,13 @@ Search the app for "YourAppName" and rename to desired app name. Change names in
 * /config/initializers/session_store.rb
 * /app/views/layouts/application.html.slim
 
-### Installing
+### Configure Gems
 
-* figaro
-* simpleform
-* devise
+###### Mongoid
+See:
+[Official MongoDB ruby guide](http://docs.mongodb.org/ecosystem/tutorial/ruby-mongoid-tutorial/#ruby-mongoid-tutorial)
+[Ademar Tutor Blog - Setup MongoDB with Rails](http://www.ademartutor.com/setup-mongodb-with-rails/)
+
+###### Figaro
+###### Simpleform
+###### Devise

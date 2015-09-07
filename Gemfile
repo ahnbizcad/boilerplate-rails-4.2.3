@@ -4,11 +4,11 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.3'    # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 
 
-gem 'sqlite3'
+#gem 'sqlite3'
 #gem 'postgresql'
 #gem 'mysql2'
-#gem 'mongoid', '~> 4', github: 'mongoid/mongoid'
-#gem 'bson_ext'
+gem 'mongoid', '~> 5.0.0.beta'
+gem 'bson', '~> 3.0'
 
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -18,8 +18,10 @@ gem 'uglifier', '>= 1.3.0'
 
 
 gem 'slim-rails'    # slim generators. includes the gem 'slim'
+
 gem 'stylus'
 #gem 'sass-rails'#, '~> 5.0'
+
 gem 'opal'
 #gem 'typescript'
 #gem 'coffee-rails'#, '~> 4.1.0'
