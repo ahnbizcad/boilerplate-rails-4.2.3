@@ -1,0 +1,9 @@
+machine:
+  timezone:
+    America/Los_Angeles # Set the timezone
+  ruby:
+    version: 2.2.2
+
+dependencies:
+  pre:
+    - bundle
