@@ -1,6 +1,7 @@
 # README
 
 ## Anatomy
+
 ### Major parts
 * ruby 2.2.2
 * rails 4.2.3
@@ -16,7 +17,7 @@
 * application preloader: spring
 * secret credentials & management: figaro
 
-#### Preprocessors
+### Preprocessors
 * html preprocessor: slim
 * css preprocessor: stylus
 * js preprocessor: opal
