@@ -1,5 +1,12 @@
 # README
 
+search app for "YourAppName" and rename to desired app name. Three locations:
+
+* /config/application.rb
+* /config/initializers/session_store.rb
+* /app/views/layouts/application.html.slim
+
+
 ## Anatomy
 ### Major parts
 * ruby 2.2.2
