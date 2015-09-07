@@ -1,12 +1,5 @@
 # README
 
-search app for "YourAppName" and rename to desired app name. Three locations:
-
-* /config/application.rb
-* /config/initializers/session_store.rb
-* /app/views/layouts/application.html.slim
-
-
 ## Anatomy
 ### Major parts
 * ruby 2.2.2
@@ -32,3 +25,20 @@ search app for "YourAppName" and rename to desired app name. Three locations:
 * authentication: devise
 * omniauth
 * simpleform
+
+
+## Configuring
+
+### Renaming the App
+
+Search the app for "YourAppName" and rename to desired app name. Change names in the following three locations:
+
+* /config/application.rb
+* /config/initializers/session_store.rb
+* /app/views/layouts/application.html.slim
+
+### Installing
+
+* figaro
+* simpleform
+* devise
