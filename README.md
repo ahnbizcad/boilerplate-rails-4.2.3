@@ -2,6 +2,8 @@
 
 ## Anatomy
 
+Built on Mac
+
 ### Major parts
 * ruby 2.2.2
 * rails 4.2.3
@@ -46,5 +48,10 @@ See:
 [Ademar Tutor Blog - Setup MongoDB with Rails](http://www.ademartutor.com/setup-mongodb-with-rails/)
 
 ###### Figaro
+[Figaro](https://github.com/laserlemon/figaro)
+
 ###### Simpleform
+[Simple_form](https://github.com/plataformatec/simple_form)
+
 ###### Devise
+
