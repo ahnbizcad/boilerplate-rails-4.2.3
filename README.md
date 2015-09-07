@@ -40,6 +40,8 @@ Search the app for "YourAppName" and rename to desired app name. Change names in
 * /config/initializers/session_store.rb
 * /app/views/layouts/application.html.slim
 
+* /config/mongoid.yml
+
 ### Configure Gems
 
 ###### Mongoid
